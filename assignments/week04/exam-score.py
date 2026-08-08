@@ -1,0 +1,13 @@
+student = []
+
+for i in range(5):
+    score = int(input(f"Enter Your Exam Score: {i+1}: "))
+    student.append(score)
+
+print()
+
+for i in range(5):
+    if student[i] >= 50:
+        print(f"Student {i+1}: {student[i]} ผ่าน")
+    else:
+        print(f"Student {i+1}: {student[i]} ไม่ผ่าน")
